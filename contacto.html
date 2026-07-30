@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0b0f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Contacto — Atlanta Store Romana</title>
+  <meta name="description" content="Contacta Atlanta Store Romana: WhatsApp, Instagram, horarios y envíos en La Romana." />
+</head>
+<body>
+  <div class="promo">🔥 ENVÍOS A TODO LA ROMANA · RETIRO EN TIENDA · PAGA AL RECIBIR</div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="dot"></span> Atlanta<b>Store</b></a>
+      <nav class="nav-links" aria-label="Principal">
+        <a href="index.html#categorias">Categorías</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <a href="https://wa.me/message/SRDUJGXYN6LCE1" target="_blank" class="btn btn-wa">📱 WhatsApp</a>
+    </div>
+  </header>
+
+  <section style="padding-top:2.5rem">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Contacto</span>
+        <h2>Háblanos al Norte 🗽</h2>
+        <p>Escríbenos por WhatsApp o síguenos en Instagram. Envíos en La Romana y retiro en tienda.</p>
+      </div>
+      <div class="feature-grid" style="max-width:900px;margin:0 auto 2rem">
+        <div class="feature"><div class="ic">💬</div><h3>WhatsApp</h3><p>Tu pedido directo al equipo de ventas. Respuesta rápida.</p><a href="https://wa.me/message/SRDUJGXYN6LCE1" target="_blank" class="btn btn-wa" style="margin-top:.6rem">Chatear ahora</a></div>
+        <div class="feature"><div class="ic">📸</div><h3>Instagram</h3><p>@atlanta_store.rd — drops, clientes y novedades diarias.</p><a href="https://www.instagram.com/atlanta_store.rd" target="_blank" class="btn btn-ghost" style="margin-top:.6rem">Seguir</a></div>
+        <div class="feature"><div class="ic">📦</div><h3>Envíos</h3><p>Delivery en La Romana (24h) y retiro en tienda. Paga al recibir.</p></div>
+      </div>
+      <div class="info-note">🕒 <b>Horario:</b> Lunes a Domingo · 9:00 AM – 8:00 PM<br>📍 La Romana, República Dominicana</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="brand" style="margin-bottom:.6rem"><span class="dot"></span> Atlanta<b>Store</b></div>
+        <p class="muted" style="font-size:.92rem;max-width:34ch">Ropa urbana al Norte 🗽. Streetwear dominicano con flow. Síguenos y pide por WhatsApp.</p>
+      </div>
+      <div>
+        <h4>Tienda</h4>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="index.html#categorias">Categorías</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div>
+        <h4>Síguenos</h4>
+        <a href="https://www.instagram.com/atlanta_store.rd" target="_blank">Instagram 📸</a>
+        <a href="https://wa.me/message/SRDUJGXYN6LCE1" target="_blank">WhatsApp 💬</a>
+      </div>
+    </div>
+    <p class="copy">© <span id="year"></span> Atlanta Store Romana · Hecho con flow al Norte 🗽</p>
+  </footer>
+
+  <!-- CARRITO -->
+  <button class="fab btn btn-primary" id="cart-fab" aria-label="Bolsa">🛍️ <span class="cart-count" id="cart-count2">0</span></button>
+  <div class="cart-panel" id="cart-panel">
+    <div class="cart-backdrop" id="cart-backdrop"></div>
+    <div class="cart-modal">
+      <button class="close-x" id="cart-close">×</button>
+      <h3>Tu bolsa 🛍️</h3>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="delivery-toggle">
+        <button data-mode="pickup" class="active" onclick="document.querySelectorAll('.delivery-toggle button').forEach(b=>b.classList.remove('active'));this.classList.add('active');document.querySelector('input[name=delivery][value=pickup]').checked=true">🏬 Retiro</button>
+        <button data-mode="delivery" onclick="document.querySelectorAll('.delivery-toggle button').forEach(b=>b.classList.remove('active'));this.classList.add('active');document.querySelector('input[name=delivery][value=delivery]').checked=true">📦 Delivery</button>
+      </div>
+      <input type="radio" name="delivery" value="pickup" checked hidden>
+      <input type="radio" name="delivery" value="delivery" hidden>
+      <input class="field" id="zone" placeholder="Zona (solo delivery)" style="width:100%;padding:.6em 1em;border-radius:12px;background:var(--bg-soft);border:1px solid var(--line);color:var(--ink);margin-bottom:.6rem">
+      <textarea class="field" id="order-note" placeholder="Nota (talla, color, etc.)" rows="2" style="width:100%;padding:.6em 1em;border-radius:12px;background:var(--bg-soft);border:1px solid var(--line);color:var(--ink)"></textarea>
+      <div class="cart-total">Total: <b id="cart-total">RD$ 0</b></div>
+      <button class="btn btn-primary btn-block" id="cart-send">📲 Enviar pedido por WhatsApp</button>
+    </div>
+  </div>
+  <!-- CHATBOT -->
+  <button class="chat-fab" id="chat-fab" aria-label="Chat">🗽 <span class="dot" style="width:8px;height:8px;border-radius:50%;background:#0a0a0a;animation:pulse 1.4s infinite"></span> Chat</button>
+  <div class="chat-panel" id="chat-panel">
+    <div class="chat-backdrop"></div>
+    <div class="chat-modal">
+      <div class="chat-head">🗽 AtlantaBot <button id="chat-close">×</button></div>
+      <div class="chat-body" id="chat-body"></div>
+      <form class="chat-input" id="chat-form">
+        <input id="chat-input" placeholder="Busca una prenda o precio…" autocomplete="off">
+        <button type="submit">➤</button>
+      </form>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script id="catalog-data" type="application/json">[]</script>
+  <script>
+    fetch("assets/data/catalog.json").then(r=>r.json()).then(d=>{{
+      window.__CAT=d;
+      document.getElementById("catalog-data").textContent=JSON.stringify(d);
+    }});
+  </script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+</body>
+</html>
