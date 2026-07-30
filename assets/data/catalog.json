@@ -1,0 +1,20 @@
+[
+  {"id":1,"name":"Gorra True Rabia","cat":"Gorras","catLabel":"Gorras","price":850,"img":"","desc":"Gorra snapback edición True Rabia. Ajuste perfecto, visera curva."},
+  {"id":2,"name":"Gorra Orohena","cat":"Gorras","catLabel":"Gorras","price":850,"img":"","desc":"Gorra plana Orohena con detalle bordado. Estilo Norte."},
+  {"id":3,"name":"Gorra WAIMEA","cat":"Gorras","catLabel":"Gorras","price":900,"img":"","desc":"Gorra WAIMEA en algodón, tono sólido con parche frontal."},
+  {"id":4,"name":"Camisa FRAVIC","cat":"Camisas","catLabel":"Camisas","price":1450,"img":"","desc":"Camisa oversize FRAVIC, corte urbano de alta rotación."},
+  {"id":5,"name":"Camisa Majestik","cat":"Camisas","catLabel":"Camisas","price":1500,"img":"","desc":"Camisa Majestik estampada, ideal para el look callejero."},
+  {"id":6,"name":"Camisa Yiah Wear","cat":"Camisas","catLabel":"Camisas","price":1400,"img":"","desc":"Camisa Yiah Wear en mezcla de tonos, fresh y ligera."},
+  {"id":7,"name":"Pantalón Prezagio","cat":"Pantalones","catLabel":"Pantalones","price":1850,"img":"","desc":"Pantalón Prezagio cargo, bolsillos amplios y tiro medio."},
+  {"id":8,"name":"Pantalón Big Boss","cat":"Pantalones","catLabel":"Pantalones","price":1950,"img":"","desc":"Pantalón Big Boss jogger, cintura elástica con cordón."},
+  {"id":9,"name":"Pantalón True Rabia","cat":"Pantalones","catLabel":"Pantalones","price":1900,"img":"","desc":"Pantalón True Rabia denim, lavado urbano con detalles."},
+  {"id":10,"name":"Playera GIVE YOUR WING 26","cat":"Playeras","catLabel":"Playeras","price":1100,"img":"","desc":"Playera GIVE YOUR WING 26 BRAND, estampa frontal bold."},
+  {"id":11,"name":"Playera 2417 con DIOS","cat":"Playeras","catLabel":"Playeras","price":1150,"img":"","desc":"Playera edición '2417 con DIOS', algodón pesado 100%."},
+  {"id":12,"name":"Playera Orohena","cat":"Playeras","catLabel":"Playeras","price":1050,"img":"","desc":"Playera Orohena básica de corte regular, varios colores."},
+  {"id":13,"name":"Sudadera WAIMEA","cat":"Sudaderas","catLabel":"Sudaderas","price":1700,"img":"","desc":"Sudadera WAIMEA con capucha y bolsillo canguro."},
+  {"id":14,"name":"Sudadera Majestik","cat":"Sudaderas","catLabel":"Sudaderas","price":1750,"img":"","desc":"Sudadera Majestik fleece, interior afelpado cálido."},
+  {"id":15,"name":"Sudadera FRAVIC","cat":"Sudaderas","catLabel":"Sudaderas","price":1800,"img":"","desc":"Sudadera FRAVIC gráfica, estilo Norte invierno."},
+  {"id":16,"name":"Pack Big Boss Completo","cat":"Colecciones","catLabel":"Colecciones","price":4200,"img":"","desc":"Combo Big Boss: playera + pantalón + gorra. Ahorra RD$500."},
+  {"id":17,"name":"Pack True Rabia","cat":"Colecciones","catLabel":"Colecciones","price":3800,"img":"","desc":"Combo True Rabia: gorra + playera + pantalón. El look completo."},
+  {"id":18,"name":"Pack Yiah Wear","cat":"Colecciones","catLabel":"Colecciones","price":3600,"img":"","desc":"Combo Yiah Wear: camisa + pantalón. Fresco y elegante."}
+]
